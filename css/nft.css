@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: hsl(215, 49%, 11%);
+    font-size: 14px;
+
+}
+
+.main__box {
+    position: relative;
+    background-color: hsl(218, 49%, 11%);
+    width: 450px;
+    height: 730px;
+    margin: 100px auto;
+    padding:20px 20px;
+    border-radius: 10px;
+
+}
+
+.inner__box {
+    position: relative;
+    background-color:hsl(217, 51%, 15%);
+    width: 420px;
+    height: 710px;
+    margin: 10px auto;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: -50px;
+    border-radius: 10px;
+}
+
+img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: -200px;
+    border-radius: 15px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.equilibrium {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    display: block;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+    
+}
+
+.product__description {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    display: block;
+    color: hsl(215, 51%, 70%);
+    padding-left: 1px;
+    padding-top: 15px;
+    margin-bottom: 30px auto;
+    margin-top: 20px;
+
+
+}
+
+.ETH {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    padding-left: 1px;
+    padding-top: 500px;
+    margin-bottom: 30px auto;
+
+}
+
+
+
